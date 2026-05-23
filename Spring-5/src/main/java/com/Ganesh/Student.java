@@ -11,5 +11,11 @@ public class Student {
 		// TODO Auto-generated constructor stub
 		System.out.println("Student Constructor");
 	}
+	
+	
+	String get() {
+		
+		return "Ganesh Garje".toUpperCase();
+	}
 
 }

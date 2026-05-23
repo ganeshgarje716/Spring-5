@@ -9,9 +9,13 @@ public class Test {
 	public static void main(String[] args) {
 		
 		
-		ApplicationContext cntext=new AnnotationConfigApplicationContext(Config.class);
+		ApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
 		
+		Student s1 = context.getBean(Student.class);
+		
+		System.out.println(s1.get());
 		
 	}
 
 }
+  
